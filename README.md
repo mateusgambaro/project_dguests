@@ -10,7 +10,7 @@ Criação de uma API Crud utilizando React.js | Node.js | MySQL | Docker
 * [Bulma](https://rometools.github.io/rome/) - CSS framework
 
 
-## :man: Lista de usuários rodando na porta :3001/user
+## :man: Lista de usuários rodando na porta :3001
 <img src="images/all.png" width="500px"/>
 
 ## :no_good_man: Adicionar usuário | http://localhost:3001/add
