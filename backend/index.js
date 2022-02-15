@@ -10,6 +10,6 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-app.use('/user', userController);
+app.use('/', userController);
 
 app.listen(PORT, () => console.log(`Ouvindo na porta ${PORT}!`));
