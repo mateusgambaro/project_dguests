@@ -10,12 +10,12 @@ const UsersList = () => {
     }, []);
  
     const getUsers = async () => {
-        const response = await axios.get('http://localhost:3000/user');
+        const response = await axios.get('https://dguests-database.herokuapp.com/');
         setUsers(response.data);
     }
  
     const deleteUsers = async (id) => {
-        await axios.delete(`http://localhost:3000/user/${id}`);
+        await axios.delete(`https://dguests-database.herokuapp.com/${id}`);
         getUsers();
     }
  

@@ -6,10 +6,10 @@ const AddUser = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const navigate = useNavigate();
- 
+
     const saveUser = async (e) => {
         e.preventDefault();
-        await axios.post('http://localhost:3000/user',{
+        await axios.post('https://dguests-database.herokuapp.com/',{
             fullName: name,
             email: email,
         });

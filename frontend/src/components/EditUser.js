@@ -12,7 +12,7 @@ const EditUser = () => {
  
     const updateUser = async (e) => {
         e.preventDefault();
-        await axios.put(`http://localhost:3000/user/${id}`,{
+        await axios.put(`https://dguests-database.herokuapp.com/${id}`,{
             fullName: name,
             email: email,
         });
@@ -24,7 +24,7 @@ const EditUser = () => {
     }, []);
  
     const getUserById = async () => {
-        const response = await axios.get(`http://localhost:3000/user/${id}`);
+        const response = await axios.get(`https://dguests-database.herokuapp.com/${id}`);
         setName(response.data.fullName);
         setEmail(response.data.email);
     }
