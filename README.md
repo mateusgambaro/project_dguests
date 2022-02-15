@@ -1,13 +1,18 @@
 # 📦 Crud API
 
-Criação de uma API Crud utilizando React.js | Node.js | MySQL | Docker
+Criação de uma API Crud utilizando React.js | Node.js | MySQL | Docker | Heroku 
+
+Frontend: https://dguests-crud.herokuapp.com/
+Backend: https://dguests-database.herokuapp.com/
 
 ## 🛠️ Construído com
 
 * [Sequelize](https://www.npmjs.com/package/sequelize) - Promise-based Node.js ORM for MySQL
 * [Express](https://expressjs.com/) - Web framework for Node.js
 * [Axios](https://axios-http.com/docs/intro) - Promise based HTTP
-* [Bulma](https://rometools.github.io/rome/) - CSS framework
+* [Bulma](https://bulma.io/) - CSS framework
+* [Heroku](https://heroku.com/) - Platform as a Service
+* [Supabase](https://supabase.com/) - Postgres database
 
 
 ## :man: Lista de usuários rodando na porta :3001
